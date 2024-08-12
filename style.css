@@ -1,0 +1,222 @@
+
+.navbar{
+    height: 100px;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+/* .collapse{
+    margin-left: 100px;
+} */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 5px;
+}
+
+.main-section{
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1721026607064/82c8b6949b114e4ac87545616fadf405.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.info-1{
+    position: absolute;
+    top: 125px;
+}
+
+.section-2{
+    height: 100vh;
+    border-radius: 30px;
+    position: relative;
+}
+
+.info-2{
+    position: absolute;
+    top: 125px;
+}
+
+.section-2 .container{
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1721043254052/8f5afb308df8c04f2651e81d32f8ef93.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+}
+
+.section-3{
+    height: 100vh;
+    border-radius: 30px;
+    position: relative;
+}
+
+.section-3 .container{
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1715931809049/46c365033495993cb17e4e74d453711a.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.info-3{
+    position: absolute;
+    top: 90px;
+}
+
+.section-4{
+    height: 95vh;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    border-radius: 30px;
+}
+
+/* col{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+} */
+
+.card-1{
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1709206038354/c79616bd7c7076af2e410338394fec0a.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 400px;
+    opacity: 75%;
+}
+
+.card-1 span{
+    opacity: 100%;
+}
+
+.card-2{
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1706183243580/9aec09762ac4b3c22176c3ea914ff3f7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 400px;
+}
+
+.card-3{
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1705563444148/75a9e082ffdc871289f0e29f12d67a84.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    height: 400px;
+}
+
+footer{
+    margin-top: 800px;
+}
+
+/* .contacts{
+    top: auto;
+} */
+
+.phone{
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1000px) {
+    .main-section{
+        background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1721034772075/9d57bc4f16994dbe13adf5afbb9b330d.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .info-1{
+        position: absolute;
+        right: auto;
+        top: auto;
+        width: 400px;
+    }
+
+    .section-2 .container{
+        background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1721043249680/9a967226d56390af907117720220e1d9.jpg);
+    }
+
+    .info-2{
+        position: absolute;
+        left: 0;
+        top: auto;
+        width: 400px;
+    }
+
+    .section-3 .container{
+        background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1715931804580/22f744980f315a5c7ec04f4051bd5e34.jpg);
+    }
+
+    .info-3{
+        position: absolute;
+        left: 0;
+        top: auto;
+        width: 400px;
+    }
+
+    /* .section-4{
+        margin-bottom: 130px;
+    } */
+
+    /* footer{
+        margin-top: 0;
+    } */
+
+    /* .contact{
+        width: 800px;
+        float: left;
+    } */
+
+    .phone{
+        margin-top: 0;
+    }
+
+  }
+
+@media all and (min-width: 767px){
+    footer{
+        margin-top: 380px;
+    }
+}
+
+@media all and (min-width: 995px){
+    footer{
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 430px){
+    footer{
+        margin-left: 0;
+        display: list-item;
+    }
+}
